@@ -52,7 +52,7 @@ You also need a **virtual audio loopback device**:
 3. Set **System Output** to this Multi-Output Device  
 4. In the Python code, identify device indices:
    ```
-   python check_devices.py
+   python check.py
    ```
 
 ---
@@ -64,7 +64,7 @@ You also need a **virtual audio loopback device**:
 3. Set **headphones/speakers** as playback device in your app  
 4. Identify device indices:
    ```
-   python check_devices.py
+   python check.py
    ```
 
 ---
@@ -89,7 +89,7 @@ Press `q` to quit.
 Find your audio device indices by running:
 
 ```
-python check_devices.py
+python check.py
 ```
 
 Example output:
